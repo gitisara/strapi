@@ -2854,38 +2854,45 @@
     tar-stream "^2.1.2"
     tmp "^0.1.0"
 
-"@swc-node/core-darwin@^0.7.6":
-  version "0.7.6"
-  resolved "https://registry.yarnpkg.com/@swc-node/core-darwin/-/core-darwin-0.7.6.tgz#0ced2f14ae1770978a0fae57bb3bacd21bb9901d"
-  integrity sha512-AtGIvQRYpxoDHfn1dYRlzsjQeiZHUeBIkZ30Y/qsxxr16rZdroctyLfdweHvlRZ3XDrz53JuEZmzPZy6g6EAFA==
+"@swc-node/core@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@swc-node/core/-/core-1.1.1.tgz#639921cfc97ee84b1e3bf625518c693b6a5a1344"
+  integrity sha512-gY3UwnS87+g1XWPp9pizUkeYX6LCz9OgLTOL/ZZY9dEGkrpf422R2QrTmrgcVMUGQ0gN4PQSxdYZGBDZ+ZYk1g==
+  dependencies:
+    "@swc/core" "^1.2.38"
 
-"@swc-node/core-linux@^0.7.6":
-  version "0.7.6"
-  resolved "https://registry.yarnpkg.com/@swc-node/core-linux/-/core-linux-0.7.6.tgz#e7052c82cf448d9e79fde27549f76e451cfbad3c"
-  integrity sha512-U78tQS9voIP4fOtYkEhZTZq1XwbMkHagwDc3uSZfAthJ9Clii2Aj1AzbEO7FaFysxBBq38XFectOf/fe9YwQNA==
+"@swc-node/jest@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@swc-node/jest/-/jest-1.0.2.tgz#56b2e9f3be0d484553f1a6e0623a894125c1590a"
+  integrity sha512-r/bDEHCuXAz19EKWtGGcLXvpGLExEm+QyJWLXYaNJRhcGmJGtWm0yvIC21kgJT8s3378jeKzkivhIYgUMhzVIg==
+  dependencies:
+    "@swc-node/core" "^1.1.1"
 
-"@swc-node/core-win32@^0.7.6":
-  version "0.7.6"
-  resolved "https://registry.yarnpkg.com/@swc-node/core-win32/-/core-win32-0.7.6.tgz#6944afe76b346725b753d5ea0def363857b3ab85"
-  integrity sha512-CUNG1kDXITphk79+Cj3oUem5EeLUG80TVEKIzjxuLy4WfTOWAiF2U7SY4oF/Lf5rLyMuCVLhyZL5VCZKXlfB4Q==
+"@swc/core-darwin@^1.2.40":
+  version "1.2.41"
+  resolved "https://registry.yarnpkg.com/@swc/core-darwin/-/core-darwin-1.2.41.tgz#efd2a62aa3c2c2bd021225533806622fd3d39227"
+  integrity sha512-PlgJqIBeNNCVf3BjLzLvIfEdIn9mI8oX5eAkP7f4H4dkXTArnzfKkmvCG2YZ5NRsmFdkYd74neBr1GUOXLMmbw==
 
-"@swc-node/core@^0.7.6":
-  version "0.7.6"
-  resolved "https://registry.yarnpkg.com/@swc-node/core/-/core-0.7.6.tgz#b260905701fa280c9302fad671dfd94ed2db75b4"
-  integrity sha512-nSCri4UnHxV/M7+esnajVuAOnthoh3E9S1GOxkxDTK1j0HXcRPeD5uknR9wLp1cQkx7SJMA9C5ma/6h3cdOibQ==
+"@swc/core-linux@^1.2.40":
+  version "1.2.41"
+  resolved "https://registry.yarnpkg.com/@swc/core-linux/-/core-linux-1.2.41.tgz#cd2c6d53faacf6f79a12bd4915d793124785b70e"
+  integrity sha512-olA1Nb/zVJngR9jdGGGvh54bcyoixBotxAjqMr4QcOAcjsz+rhYFnnIEWTyAEQ+vRxUr5sQhdGDH5oqwunNMQA==
+
+"@swc/core-win32@^1.2.40":
+  version "1.2.41"
+  resolved "https://registry.yarnpkg.com/@swc/core-win32/-/core-win32-1.2.41.tgz#eb690c6573c14490a3365e063bf72af8f9d6424c"
+  integrity sha512-0SPazxeP0NNVKJvXZIbwnhykH2S6tNkD0iqtM+ALYLhOwvJqQM40ktlxUGncpTx2HVD8qxn3OpYNfzLMN/JA9Q==
+
+"@swc/core@^1.2.38":
+  version "1.2.40"
+  resolved "https://registry.yarnpkg.com/@swc/core/-/core-1.2.40.tgz#b9362e7c882a14f3c83b5535b11381abfa0cae4e"
+  integrity sha512-u2/pTMEdxQTv1oOZ17yr9aI6Fnt2UR90X48n28/tjy2b8bH1VmUaB707MMMWySgMnQe2Y98IzYzUDTgOP4D1Ew==
   dependencies:
     "@node-rs/helper" "^0.4.0"
   optionalDependencies:
-    "@swc-node/core-darwin" "^0.7.6"
-    "@swc-node/core-linux" "^0.7.6"
-    "@swc-node/core-win32" "^0.7.6"
-
-"@swc-node/jest@^0.3.4":
-  version "0.3.8"
-  resolved "https://registry.yarnpkg.com/@swc-node/jest/-/jest-0.3.8.tgz#5f898ab6d8bc0a82388234a682c265bbbfa39521"
-  integrity sha512-leWImRMzzvLFl7fG7MowjGFLa9x25k17ChidEty/j9GY9m/pllQpvgp1xlkMNhy2kFI5+U9byeAyINuSyAEKkQ==
-  dependencies:
-    "@swc-node/core" "^0.7.6"
+    "@swc/core-darwin" "^1.2.40"
+    "@swc/core-linux" "^1.2.40"
+    "@swc/core-win32" "^1.2.40"
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
